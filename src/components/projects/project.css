@@ -1,0 +1,126 @@
+
+.my-projects {
+    width: 100%;
+      margin-top: -5cm; 
+    padding: 0 8% 2%;
+    background: #0b0b0f;
+    color: #f8f8f8;
+}
+
+.my-projects .title {
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto 50px;
+}
+
+.my-projects .title h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.my-projects .title h3 span {
+    color: #8b5cf6;
+}
+
+ .para {
+    
+    font-size: 20px;
+    margin-top: 15px;
+    color:#c9c9c9;
+    line-height: 1.6;
+}
+
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch; 
+}
+
+
+.project-card {
+    cursor: pointer;
+    margin-top: -3cm;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 20px;
+    transition: .3s ease;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.15);
+    overflow: hidden;
+}
+
+
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 22px rgba(139, 92, 246, 0.4);
+}
+
+
+.key-features {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: disc; 
+    color: #dcd3ff;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.key-features li {
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.key-title, .tech-title {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #b784ff;
+    font-weight: 600;
+}
+
+
+.project-card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+
+.project-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.project-card p {
+    color: #cfcfcf;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px 0;
+}
+
+.tools p {
+    background: rgba(139, 92, 246, 0.15);
+    border: 1px solid rgba(139, 92, 246, 0.25);
+    padding: 6px 12px;
+    font-size: 13px;
+    border-radius: 40px;
+    color: #d6c2ff;
+}
+
+.tools p:hover {
+    background: rgba(139, 92, 246, 0.35);
+    color: #fff;
+}

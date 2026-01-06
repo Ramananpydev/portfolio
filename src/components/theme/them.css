@@ -1,0 +1,9 @@
+#sun{
+    color: rgb(255, 255, 255);
+    width: 5cm;
+    font-size: 2cm;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(15, 15, 15);
+    /* margin: 0 2cm 3cm 0cm; */
+    padding: 30px 0 30px 0;
+}
