@@ -11,7 +11,7 @@ function Body() {
             <div className="explore">
 
                 <a href="mailto:ramanan.pydev@gmail.com"><button className='btn btn-first'>Hire Me</button></a>
-                <a href="/Ramanan_Resume.pdf" download="Ramanan_Resume.pdf"><button className='btn btn-second'>Download CV</button> </a>
+                <a href="/ramanan_resume.pdf" download="Ramanan_Resume.pdf"><button className='btn btn-second'>Download CV</button> </a>
                 <a href="https://github.com/Ramananpydev/" target="_blank" rel="noopener noreferrer"><button className='btn btn-third'>View My Work</button></a>
  
             </div>
