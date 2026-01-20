@@ -4,7 +4,7 @@ import './skill.css'
 function Skill() {
   return (
     <div>
-       <section className="skills-section" data-aos="fade-up" data-aos-delay="200">
+       <section className="skills-section" id='skill'>
     <h3 className="title">My <span>Skills</span></h3>
 
     <div className="skills-grid">

@@ -9,15 +9,15 @@ function Footer(){
         <div className="get">
             <p>Building modern, high-performance web experiences through elegant design, clean code, and the latest technologies.</p>
             <i className="fa-brands fa-instagram"></i>
-            <i className="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/ramanan-pydev/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
         </div>
 
         <div className="quick-link">
             <ul>
-                <li>About</li>
-                <li>Skill</li>
-                <li>Project</li>
-                <li>Contact</li>
+                <a href="#about"><li>About</li></a>
+                <a href="#skill"><li>Skill</li></a>
+                <a href="#project"><li>Project</li></a>
+                <a href="#contact"><li>Contact</li></a>
             </ul>
         </div>
 

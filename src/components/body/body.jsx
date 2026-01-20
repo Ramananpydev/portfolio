@@ -10,9 +10,9 @@ function Body() {
             <p className="p1" >Python Full Stack Developer crafting modern,responsive web apps with clean UI <span> and robust backend architecture</span></p>
             <div className="explore">
 
-                <button className='btn btn-first'>Hire Me</button>
-                <a href="/Resume.pdf" target='_blank'><button className='btn btn-second'>Download CV</button> </a>
-                <button className='btn btn-third'>View My Work</button>
+                <a href="mailto:ramanan.pydev@gmail.com"><button className='btn btn-first'>Hire Me</button></a>
+                <a href="/Ramanan_Resume.pdf" download="Ramanan_Resume.pdf"><button className='btn btn-second'>Download CV</button> </a>
+                <a href="https://github.com/Ramananpydev/" target="_blank" rel="noopener noreferrer"><button className='btn btn-third'>View My Work</button></a>
  
             </div>
 

@@ -4,7 +4,7 @@ import './contact.css'
 function Contact() {
   return (
     <div>
-      <section  data-aos="fade-up" data-aos-delay="200">
+      <section id='contact'>
     <div className="get-in-touch" >
    
         <div className="contact">
@@ -39,28 +39,28 @@ function Contact() {
         <p>I'm always excited to work on new projects...</p>
 
         <div className="connect">
-            <div className="email">
+            <a href="mailto:ramanan.pydev@gmail.com"><div className="email">
                 <i className="fa-solid fa-envelope-circle-check"></i>
                 <h4>Email</h4>
                 <p>ramanan.pydev@gmail.com</p>
-            </div>
+            </div></a>
 
-            <div className="phone">
+            <a href="tel:+919876543210"><div className="phone">
                 <i className="fa-solid fa-phone"></i>
                 <h4>Phone</h4>
                 <p>+91 93844 15892</p>
-            </div>
+            </div></a>
 
-            <div className="location">
+            <a href="https://wa.me/919876543210" target="_blank"><div className="location">
                 <i className="fa-brands fa-whatsapp"></i>
                 <h4>Whatsapp</h4>
                 <p>+91 93844 15892</p>
-            </div>
+            </div></a>
         </div>
 
         <div class="social-icons">
            <i className="fa-brands fa-instagram"></i>
-          <i className="fa-brands fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/ramanan-pydev/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
         </div>
     </div>
 

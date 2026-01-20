@@ -1,9 +1,9 @@
 import React from 'react'
 import './header.css'
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 
 function Header() {
-    // const [theme,setTheme]=useState('light')
+
   return (
     <div className='header'>
         <div className="logo">
@@ -12,18 +12,11 @@ function Header() {
         <div className="nav-header">
             <nav>
                 <ul>
-                    <li>About</li>
-                    <li>Skill</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
-                    {/* <li onClick={()=>{
-                        document.body.style.backgroundColor="white"
-                        setTheme('light')
-                    }}><i class="fa-regular fa-sun"></i></li>
-                    <li onClick={()=>{
-                        document.body.style.backgroundColor="black"
-                        setTheme('light')
-                    }}><i class="fa-regular fa-moon"></i></li> */}
+                   <a href="#about"> <li>About</li></a>
+                   <a href="#skill">  <li>Skill</li></a>
+                   <a href="#project">  <li>Projects</li></a>
+                   <a href="#contact">  <li>Contact</li></a>
+                    
                 </ul>
             </nav>
         </div>

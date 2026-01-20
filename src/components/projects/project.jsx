@@ -4,8 +4,8 @@ import './project.css'
 function Project() {
   return (
     <div>
-      <section>
-    <div className="my-projects" data-aos="fade-up" data-aos-delay="200">
+      <section id='project'>
+    <div className="my-projects" >
 
     <div className="title">
         <h3>Featured <span>Projects</span></h3>
@@ -15,26 +15,17 @@ function Project() {
     <div className="projects-grid">
 
 
-<div className="project-card" data-aos="fade-up" data-aos-delay="200">
+<div className="project-card">
     <img src="fullstack.PNG" alt="oops!"/>
 
-    <h4>Sweet & Savory Shop – Full-Stack E-Commerce Website (Django)</h4>
+    <h4>Sweet & Savory Shop – Full-Stack E-Commerce Website </h4>
 
     <p>
-        A fully functional full-stack e-commerce website built using Django, Python, and MySQL.
-
-        Focused on clean UI, fast backend performance, and real-world shop workflows.
+       Built a full-stack e-commerce web application using Django and MySQL with JWT (JSON Web Token) authentication for secure user login and authorization.
+Users can register, log in, browse products, and place orders, while JWT ensures secure access to protected APIs.
+The project demonstrates backend API development, authentication handling, and database integration in a real-world e-commerce system.
     </p>
 
-    {/* <h5 className="key-title">Key Features:</h5> */}
-
-    {/* <ul className="key-features">
-        <li>User signup/sign-in (hashed passwords)</li>
-        <li>Add to cart, remove, update quantity</li>
-        <li>Admin panel for product and order management</li>
-        <li>Responsive UI for all devices</li>
-        <li>Payment-ready architecture</li>
-    </ul> */}
 
     <h5 className="tech-title">Tech Stack:</h5>
 
@@ -43,26 +34,15 @@ function Project() {
     </div>
 </div>
 
-<div className="project-card" data-aos="fade-up" data-aos-delay="200">
-    <img src="moto-cycle-project.PNG" alt="oops!"/>
+<div className="project-card" >
+    <img src="cinebook.PNG" alt="oops!"/>
 
     <h4>Motorcycle Repair Shop – Modern Frontend Design</h4>
 
     <p>
-        A visually appealing and fully responsive frontend UI designed for a 
-        motorcycle service and repair shop. The design focuses on clean layout, 
-        user-friendly navigation, and strong visual presentation to improve customer engagement.
+        CineBook is a React.js-based frontend web application designed to display movies and provide a smooth ticket booking–style user experience. The project focuses on clean UI design, responsive layouts, and easy navigation between pages such as movie listings and details. 
+        It demonstrates my skills in building reusable components and creating interactive user interfaces using modern frontend technologies.
     </p>
-
-    {/* <h5 className="key-title">Key Features:</h5>
-
-    <ul className="key-features">
-        <li>Modern dark-themed UI layout</li>
-        <li>Service listing page with icons</li>
-        <li>Responsive booking/contact UI</li>
-        <li>Attractive hover animations</li>
-        <li>Fully mobile-friendly design</li>
-    </ul> */}
 
     <h5 className="tech-title">Tech Stack:</h5>
 
@@ -84,16 +64,6 @@ function Project() {
         skills, projects, and contact details. Includes modern animations, 
         gradient styling, and a professional layout for recruiters and clients.
     </p>
-{/* 
-    <h5 className="key-title">Key Features:</h5>
-
-    <ul className="key-features">
-        <li>Fully animated sections using AOS</li>
-        <li>Smooth scroll behavior and UI transitions</li>
-        <li>Direct WhatsApp, Email, Phone integration</li>
-        <li>Responsive layout for all screen sizes</li>
-        <li>Clean design with modern gradients</li>
-    </ul> */}
 
     <h5 className="tech-title">Tech Stack:</h5>
 

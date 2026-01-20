@@ -1,15 +1,11 @@
 .skills-section {
     padding: 50px 0;
     text-align: center;
-    background: #0b0b0f;
     color: #fff;
 }
 
 .skills-section .title {
-    position: relative;
-    top: -6cm;
     font-size: 32px;
-    margin-bottom: 30px;
 }
 
 .skills-section .title span {
@@ -20,17 +16,13 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
-    position: relative;
-    right: 4cm;
-    bottom: 2cm;
-    width: 150%;
-    margin: auto;
+    width: 150%; 
+    margin: 0 0 100px 0px;  
+    transform: translateX(-15%); 
 }
 
 .skill-card {
-    position: relative;
-    bottom: 4cm;
-    right: 1cm;
+    
     background: #0d0d0d;
     border: 1px solid #2a2a2a;
     padding: 25px;

@@ -1,11 +1,13 @@
 .get-in-touch{
-    margin-top: -3cm;
+    margin-top: 6cm;
 }
 .contact {
    
     width: 100%;
     text-align: center; 
 }
+
+
 
 .title {
     position: relative;
@@ -120,6 +122,7 @@
 }
 .connect a {
     color: white;
+    cursor: pointer;
 
 }
 
