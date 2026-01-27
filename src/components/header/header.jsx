@@ -3,7 +3,7 @@ import './header.css'
 import { useState,useEffect } from 'react'
 
 function Header() {
-
+ const [open, setOpen] = useState(false)
   return (
     <div className='header'>
         <div className="logo">

@@ -1,4 +1,5 @@
 import React from 'react'
+import profileImg from '../../../public/ramanan.jpg'
 import './about.css'
 
 function About() {
@@ -10,7 +11,7 @@ function About() {
 
 
         <div className="about-image" >
-            <img src="/ramanan.jpg" alt="Profile"/>
+            <img src={profileImg} alt="Profile" />
         </div>
 
 
