@@ -15,7 +15,7 @@ function Project() {
     <div className="projects-grid">
 
 
-<a href="https://ramananpydev.github.io/ecommerce-react--django_restapi/" target='_blank'><div className="project-card">
+<div className="project-card">
     <img src="fullstack.PNG" alt="oops!"/>
 
     <h4>Sweet & Savory Shop – Full-Stack E-Commerce Website </h4>
@@ -32,7 +32,7 @@ The project demonstrates backend API development, authentication handling, and d
     <div className="tools">
         <p>Django</p><p>Python</p><p>MySql</p><p>Html</p><p>Css</p><p>JavaScript</p><p>GitHub</p>
     </div>
-</div></a>
+</div>
 
 <div className="project-card" >
     <img src="cinebook.PNG" alt="oops!"/>
