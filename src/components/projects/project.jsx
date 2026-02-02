@@ -45,7 +45,7 @@ function Project() {
               </div>
             </div></a>
 
-            <a href="https://ramananpydev.github.io/cinebook/"><div className="project-card">
+            <a href="https://ramananpydev.github.io/cinebook/" target="_blank"><div className="project-card">
               <img src="cinebook.PNG" alt="oops!" />
 
               <h4>Movie Ticket Booking – Modern Frontend Design</h4>
@@ -71,11 +71,7 @@ function Project() {
               </div>
             </div></a>
 
-            <div
-              className="project-card"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
+            <div className="project-card" >
               <img src="portfolio.PNG" alt="oops!" />
 
               <h4>Portfolio Website – Interactive & Animated</h4>
