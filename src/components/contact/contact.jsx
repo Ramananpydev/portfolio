@@ -45,13 +45,13 @@ function Contact() {
                 <p>ramanan.pydev@gmail.com</p>
             </div></a>
 
-            <a href="tel:+919876543210"><div className="phone">
+            <a href="tel:+919384415892"><div className="phone">
                 <i className="fa-solid fa-phone"></i>
                 <h4>Phone</h4>
                 <p>+91 93844 15892</p>
             </div></a>
 
-            <a href="https://wa.me/919876543210" target="_blank"><div className="location">
+            <a href="https://wa.me/919384415892" target="_blank"><div className="location">
                 <i className="fa-brands fa-whatsapp"></i>
                 <h4>Whatsapp</h4>
                 <p>+91 93844 15892</p>
