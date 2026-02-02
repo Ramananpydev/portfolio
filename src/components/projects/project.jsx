@@ -45,7 +45,7 @@ function Project() {
               </div>
             </div></a>
 
-            <div className="project-card">
+            <a href="https://ramananpydev.github.io/cinebook/"><div className="project-card">
               <img src="cinebook.PNG" alt="oops!" />
 
               <h4>Movie Ticket Booking – Modern Frontend Design</h4>
@@ -69,7 +69,7 @@ function Project() {
                 <p>React Js</p>
                 <p>GitHub</p>
               </div>
-            </div>
+            </div></a>
 
             <div
               className="project-card"
