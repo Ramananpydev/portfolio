@@ -1,7 +1,31 @@
 import React from 'react'
 import './contact.css'
+import { useState } from 'react';
 
 function Contact() {
+      const [status, setStatus] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+    const data = new FormData(form);
+
+    const response = await fetch("https://formspree.io/f/xaqdzgew", {
+      method: "POST",
+      body: data,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (response.ok) {
+      setStatus("SUCCESS");
+      form.reset();
+    } else {
+      setStatus("ERROR");
+    }
+}
   return (
     <div>
       <section id='contact'>
@@ -12,11 +36,11 @@ function Contact() {
             <p className="subtitle">If you'd like to collaborate, discuss a project, or need help building a full-stack application, feel free to reach out. I’m always open to new opportunities, freelance work, internships, and creative ideas. You can contact me anytime through email or connect with me on social platforms.</p>
         </div>
 
-        <div className="contact-container" data-aos="fade-up" data-aos-delay="200">
+        <div className="contact-container" >
 
 
     <div className="left-form">
-        <form action="mailto:ramanan.pydev@gmail.com" method="post" enctype="text/plain">
+        <form action="https://formspree.io/f/xaqdzgew" method="post" onSubmit={handleSubmit}>
             <label>Name</label>
             <input type="text" name="name" required/>
 
@@ -30,6 +54,16 @@ function Contact() {
             <textarea name="message" rows="6" required></textarea>
 
             <button type="submit">Send Message</button>
+
+
+          {status === "SUCCESS" && (
+            alert("✅ Message Sent Successfully!")
+          )}
+
+          {status === "ERROR" && (
+            alert("❌ Something went wrong!")
+          )}
+
         </form>
     </div>
 
@@ -58,7 +92,7 @@ function Contact() {
             </div></a>
         </div>
 
-        <div class="social-icons">
+        <div className="social-icons">
            <i className="fa-brands fa-instagram"></i>
           <a href="https://www.linkedin.com/in/ramanan-pydev/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
         </div>
